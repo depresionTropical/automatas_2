@@ -1,0 +1,16 @@
+numero,numero
+_A1,identificador
+=, 
+_A2,identificador
++, 
+_A3,identificador
+;, 
+palabra,palabra
+_Bueno1,identificador
+_Malo1,identificador
+_oracion1,identificador
+-, 
+decimal,decimal
+_A4,identificador
+/, 
+_oracion2,identificador

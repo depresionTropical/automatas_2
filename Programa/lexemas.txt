@@ -1,0 +1,16 @@
+numero: numero
+_A1: identificador
+=: desconocido
+_A2: identificador
++: add
+_A3: identificador
+;: punto_y_coma
+palabra: palabra
+_Bueno1: identificador
+_Malo1: identificador
+_oracion1: identificador
+-: sub
+decimal: decimal
+_A4: identificador
+/: div
+_oracion2: identificador
