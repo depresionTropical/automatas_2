@@ -48,3 +48,73 @@ _A1 = _A3 / 3 *10;
 _F2 = _F2 +1 ;
 end while
 ```
+
+```
+b=c/2
+DO
+  a=a+1;
+  b=a*2;
+FINDO MIENTRAS (a>10 & b<20)
+```
+
+
+-| Dato Objeto | Dato Fuente|Operador 
+-|-|-|-
+1|T1|c|=
+2|T1|2|/
+3|b|T1|=
+4|T1|a|=
+5|T1|1|+
+6|a|T1|=
+7|T1|a|=
+8|T1|2|*
+9|b|T1|=
+10|T1|a|=
+11|T1|10|<
+12|TR1|True|16
+13|TR1|False|18
+14|T1|b|=
+15|T1|20|<
+16|TR2|True|4
+17|TR2|False|18
+18|...|...|...
+
+
+```
+y=10; par=0;impar=0;
+
+for(x=10;x<=y;x=x+1){
+  do{
+    par=par+1;
+  }while(x==0);
+}
+
+```
+
+-| Dato Objeto | Dato Fuente|Operador 
+-|-|-|-
+1|T1|10|=
+2|y|T1|=
+3|T1|0|=
+4|par|T1|=
+5|T1|0|=
+6|impar|T1|=
+7|T1|10|=
+8|x|T1|=
+9|T1|x|=
+10|T1|y|<=
+11|TR1|True|13
+12|TR1|False|24
+13|T1|1|=
+14|T1|par|+
+15|par|T1|=
+16|T1|x|=
+17|T1|0|==
+18|TR2|True|13
+19|Tr2|False|20
+20|T1|x|=
+21|T1|1|+
+22|x|T1|=
+23||7|JR
+24|...|...|...
+
